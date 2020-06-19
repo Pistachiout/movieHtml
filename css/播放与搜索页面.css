@@ -1,0 +1,300 @@
+/* 播放页面上方播放部分的css */
+.introduction {
+    width: 25%;
+}
+
+.player div{
+    display: inline-block;
+}
+.num {
+    float: left;
+    width:25%;
+    margin: 10px;
+}
+.container-play{
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    width:1400px;
+    margin-left: 280px;
+}
+.panel {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+img{
+    display: inline-block;
+    width: 1000px;
+    height: 600px;
+}
+.panel__head .title, .panel__head .title a {
+    font-size: 24px;
+}
+.panel__head .title {
+    display: inline-block;
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+}
+.text-muted {
+    color: #999;
+}
+.content__list li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.btn-gray {
+    color:black;
+    background-color:snow;
+}
+.btn-warm {
+    background-color: #ff9900;
+    color:white;
+}
+/* 播放页面下方剧情介绍与猜您爱看等的css */
+
+.left {
+    width: 70%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.panel {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.panel__head {
+    position: relative;
+    height: 42px;
+}
+.panel__head .title, .panel__head .title a {
+    font-size: 24px;
+}
+.panel__head .title {
+    display: inline-block;
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+}
+.col-pd{
+    position: relative;
+    padding-left: 10px;
+    min-height: 1px;
+}
+.content {
+    font-size: 16px;
+    line-height: 30px;
+}
+p {
+    margin-bottom: 10px;
+}
+
+.panel__head .title, .panel__head .title a {
+    font-size: 24px;
+}
+.panel__head .title {
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-top:5px;
+    line-height: 30px;
+}
+.nav {
+    position: relative;
+}
+.nav-head > li, .nav-tabs > li {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav > li {
+    float: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+
+}
+.vodlist__thumb {
+    border-radius: 5px;
+    padding-top: 150%;
+}
+.nav-tabs > li > a {
+    padding-bottom: 10px;
+}
+.love {
+    width: 16.6666667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 10px;
+}
+.vodlist__thumb {
+    border-radius: 5px;
+    padding-top: 150%;
+    display: block;
+    position: relative;
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.vodlist__thumb .play {
+    position: absolute;
+    top: 0;
+
+}
+.pic-tag {
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.pic-text, .pic-title-bottom {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(transparent,rgba(0,0,0,.5));
+    color: #fff;
+}
+.pic-text {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+    overflow: hidden;
+}
+.text-right {
+    text-align: right;
+}
+.pull-right {
+    float: right !important;
+}
+.right{
+    margin-left: 20px;
+}
+.bottom-line:after {
+    border-bottom: 1px solid;
+    border-color: black;
+}
+.bottom-line:after, .bottom-line-dot:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.vodlist__detail .title {
+    margin: 10px 0 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.vodlist__detail .text {
+    min-height: 19px;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.watching {
+    width: 22%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 10px;
+}
+.text-center {
+    text-align: center;
+}
+
+.right {
+    width: 26%;
+    display: inline-block;
+}
+.panel__head .more {
+    line-height: 30px;
+}
+.vodlist__media .thumb, .vodlist__media .detail {
+    display: table-cell;
+    vertical-align: top;
+}
+.vodlist__media .detail h4.title {
+    margin: 10px 0 10px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.font-12 {
+    font-size: 12px;
+}
+.vodlist__text li a, .vodlist__media li {
+    padding: 10px 0;
+}
+.img-xs-70 {
+    width: 70px;
+}
+.vodlist__text li a {
+    display: block;
+}
+.badge {
+    background-color: #eee;
+    color: #333;
+    display: inline-block;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.badge-first {
+    background-color: #ff4a4a;
+    color: #fff;
+}
+.badge-second {
+    background-color: #ff7701;
+    color: #fff;
+}
+.badge-third {
+    background-color: #ffb400;
+    color: #fff;
+}
+
+/* 搜索页面的部分专属css*/
+.text-red {
+    color: red;
+}
+.img-md-150 {
+    width: 150px;
+}
+.btn.btn-sm {
+    padding: 6px 20px;
+}
+ .detail {
+    width: 100%;
+    padding: 0 0 0 20px;
+    display: table-cell;
+    vertical-align: top;
+}
+.btn {
+    border-radius: 5px;
+}

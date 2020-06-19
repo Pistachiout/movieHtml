@@ -1,0 +1,90 @@
+.toplist-btn-group {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.toplist{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+blockquote, body, button, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.toplist-btn-group .toplist-btn:first-child {
+    border-left: none;
+    border-radius: 2px 0 0 2px;
+}
+.toplist-btn-group .toplist-btn {
+    margin-left: 0!important;
+    margin-right: 0!important;
+    border-left: 1px solid rgba(255,255,255,.5);
+    border-radius: 0;
+}
+.toplist-btn {
+    margin-bottom: 10px;
+}
+.toplist-btn {
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    background-color: #009688;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.toplist-btn, .toplist-edge, .toplist-inline, img {
+    vertical-align: middle;
+}
+.toplist-table {
+    width: 100%;
+    background-color: #fff;
+    color: #666;
+}
+.toplist-table, .toplist-table-view {
+    margin: 10px 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+colgroup {
+    display: table-column-group;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.toplist-table td, .toplist-table th {
+    position: relative;
+    padding: 9px 15px;
+    min-height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.toplist-table td, .toplist-table th, .toplist-table-fixed-r, .toplist-table-header, .toplist-table-page, .toplist-table-tips-main, .toplist-table-tool, .toplist-table-view, .toplist-table[lay-skin=line], .toplist-table[lay-skin=row] {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+}
+.toplist-table th {
+    text-align: left;
+    font-weight: 400;
+}
+tr th {
+    text-align: center !important;
+}
+
+.toplist-table a {
+    text-decoration: underline;
+    color: #c00;
+}

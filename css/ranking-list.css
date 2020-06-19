@@ -1,0 +1,173 @@
+.panel {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.ranking-list:before,.ranking-row:before,.clearfix:before{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.ranking-list{
+    height:850px;
+    margin-right: auto;
+    margin-left: 10%;
+}
+a:hover {
+    color: cornflowerblue;
+}
+.panel {
+    position: relative;
+    background-color: #fff;
+}
+
+.content__list li, .vodlist__media.col li {
+    padding: 10px;
+}
+.list {
+    width: 22%;
+    float: left;
+    margin-right: 15px;
+}
+.panel ,.panel_hd {
+    padding: 10px;
+}
+.panel__head {
+    position: relative;
+    height: 30px;
+}
+.panel__head .title, .panel__head .title a {
+    font-size: 24px;
+    display: inline-block;
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+}
+.panel__head .more {
+    line-height: 30px;
+}
+
+.top-line:before, .bottom-line:after, .top-line-dot:before, .bottom-line-dot:before {
+    border-color: #eee;
+}
+.bottom-line:after {
+    border-bottom: 1px solid;
+}
+.bottom-line:after, .bottom-line-dot:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+}
+.vodlist__media li:first-child {
+    padding-top: 0;
+}
+.vodlist__text li a, .vodlist__media li {
+    padding: 10px 0;
+}
+.vodlist__media .thumb, .vodlist__media .detail {
+    display: table-cell;
+    vertical-align: top;
+}
+.vodlist__thumb {
+    border-radius: 5px;
+    padding-top: 150%;
+    background: url(/template/mytheme/statics/img/load.png) no-repeat;
+}
+.img-xs-70 {
+    width: 70px;
+}
+.vodlist__thumb {
+    display: block;
+    position: relative;
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.vodlist__media .detail-side {
+    padding: 0 10px 0;
+}
+.vodlist__media .detail {
+    width: 100%;
+    padding: 0 0 0 20px;
+}
+.vodlist__media .thumb, .vodlist__media .detail {
+    display: table-cell;
+    vertical-align: top;
+}
+.vodlist__media .detail h4.title {
+    margin: 10px 0 10px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+p {
+    margin-bottom: 10px;
+}
+.margin-0 {
+    margin: 0 !important;
+}
+.top-line, .top-line-dot, .bottom-line, .bottom-line-dot {
+    position: relative;
+}
+.top-line:before, .bottom-line:after, .top-line-dot:before, .bottom-line-dot:before {
+    border-color: #eee;
+}
+.top-line-dot:before {
+    border-top: 1px dotted;
+}
+.vodlist__text li a {
+    display: block;
+}
+.top-line:before, .top-line-dot:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+}
+.vodlist__text li a, .vodlist__media li {
+    padding: 10px 0;
+}
+.badge {
+    background-color: #eee;
+    color: #333;
+}
+
+.badge {
+    display: inline-block;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.badge-first {
+    background-color: #ff4a4a;
+    color: #fff;
+}
+.badge-second {
+    background-color: #ff7701;
+    color: #fff;
+}
+.badge-third {
+    background-color: #ffb400;
+    color: #fff;
+}
+.top-line-dot{
+    height: 39px;
+}
