@@ -11,6 +11,9 @@
     width:25%;
     margin: 10px;
 }
+a:hover {
+    color: cornflowerblue;
+}
 .container-play{
     padding-left: 0px;
     padding-right: 0px;
